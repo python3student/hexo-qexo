@@ -1,0 +1,105 @@
+/* 彩带 */
+/*
+.card-info-avatar:hover {
+    background: url(https://tt3.pages.dev/img/bg/H3342af90d24b4d62b9bbfec9688ccc25M.gif);
+}*/
+
+/* 花 */
+/* .card-info-avatar:hover {
+  background: url(https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/20200530181856.gif);
+} */
+#footer-wrap{
+  color: rgba(0, 0, 0, 0.686);
+}
+[data-theme = dark] #footer-wrap{
+  color: rgba(255, 255, 255, 0.645);
+}
+#footer::before{
+  opacity: 0;
+}
+/*文章页背景*//*分类页面*//*时间轴页面*/
+.layout #post, .layout #page , .layout #archive , .layout #category{
+  /* 以下代表透明度为0.5 可以自行修改*/
+background:rgba(255, 255, 255, 0.9);
+}
+/*侧边栏页面*/
+#aside-content .sticky_layout .card-widget , #aside-content .card-widget{
+  background: rgba(255,255,255,0.8);
+}
+/* 所有页面背景 */
+#recent-posts>.recent-post-item, .read-mode .layout_post>#post{
+  /* 以下代表透明度为0.5 */
+  background: rgba(255,255,255,0.9);
+}
+
+/* 以下代表顶栏透明度为0.5 */
+/*#page-header #nav {
+  background: transparent!important;
+}*/
+
+/*以下是封面图透明*//*
+#page-header.full_page::before {
+  background-color: transparent!important;
+}*/
+
+/*文章页背景*//*分类页面*//*时间轴页面*/
+[data-theme = dark] .layout>#post,[data-theme = dark] .layout #page ,[data-theme = dark] .layout #archive ,[data-theme = dark] .layout>#category{
+  /* 以下代表透明度为0.5 可以自行修改*/
+background:rgba(0, 0, 0, 0.8);
+  }   
+/*侧边栏页面*/
+[data-theme = dark] #aside-content .sticky_layout .card-widget , [data-theme = dark] #aside-content .card-widget{
+  background:rgba(0, 0, 0, 0.8);
+}
+/* 所有页面背景 */
+[data-theme = dark] #recent-posts>.recent-post-item,[data-theme = dark]  .read-mode .layout_post>#post{
+  /* 以下代表透明度为0.5 */
+  background:rgba(0, 0, 0, 0.8);
+}
+/*
+[data-theme = dark] #span.vsys{
+  background: rgba(0, 0, 0, 0.9);
+}*/
+/* 特定元素改变颜色
+#\36 38d38ac8d766d5be94f2c42 > .vh > .vhead > span.vsys,[data-theme = dark]{
+  background: rgba(34, 26, 2, 0.9);
+}*/
+
+[data-theme = dark] #page-header.full_page::before{
+  background: url(/img/bg/darkmodepicture70.jpg);
+}
+/*
+[data-theme = dark] #universe{
+  background: url(/img/bg/darkmodepicture6.jpg);
+}*/
+
+/* 一级菜单居中 */
+#nav .menus_items {
+  position: absolute !important;
+  width: fit-content !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+/* 子菜单横向展示 */
+#nav .menus_items .menus_item:hover .menus_item_child {
+  display: flex !important;
+}
+/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
+/*.menus_items .menus_item:nth-child(2) .menus_item_child {
+  left: -190px;
+}*/
+/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
+.menus_items .menus_item:nth-child(2) .menus_item_child {
+  left: -135px;
+}
+/* 这里的2是代表导航栏的第3个元素，即有子菜单的元素，可以按自己需求修改 */
+.menus_items .menus_item:nth-child(3) .menus_item_child {
+  left: -100px;
+}
+/* 这里的2是代表导航栏的第4个元素，即有子菜单的元素，可以按自己需求修改 */
+.menus_items .menus_item:nth-child(4) .menus_item_child {
+  left: -150px;
+}
+.menus_items .menus_item:nth-child(5) .menus_item_child {
+  left: -90px;
+}

@@ -1,0 +1,25 @@
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 2em;
+    /* background-color: rgba(73, 177, 245, .2); */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(255 255 255 / .3);
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+    border-radius: 2em
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent
+}
+
+
+作者: Ethan.Tzy
+链接: https://tzy1997.com/articles/hexo1606/#%E6%BB%9A%E5%8A%A8%E6%9D%A1
+来源: 唐志远の博客
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
